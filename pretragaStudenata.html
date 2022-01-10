@@ -11,9 +11,13 @@
     <a href="index.html"><h2>FSK Adresar</h2></a>
     <br>
     <h3>Pronađi studenta po indexu</h3>
-    <div style="width: 550px;">
+    <div>
         <input id="trazeniIndex" placeholder="Pretražite po broju indeksa...">
-        <button onclick="prikazi(document.getElementById('trazeniIndex').value);">Pronađi</button>
+        <br>
+        <br>
+        <button onclick="prikaziStudentaIzStorage(document.getElementById('trazeniIndex').value);">Pronađi</button>
+        <br>
+        <br>
         <p id="ispis"></p>
     </div>
 </body>
