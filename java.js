@@ -16,6 +16,6 @@ function ubacistudenta(a,b,c,d,e,f){
 
 function prikazi(a){
     let student = students.find(student => student.index === a);
-    document.getElementById("ispis").innerHTML = student.ime + ' ' +student.prezime;
+    document.getElementById("ispis").innerHTML = 'Traženi student: ' + student.ime + ' ' +student.prezime;
     //Promjena 
 }
