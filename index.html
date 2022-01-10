@@ -8,28 +8,9 @@
     <script src="java.js"></script>
 </head>
 <body>
-    <h2>Input students</h2>
-    <div style="width: 550px;">
-        <input id="ime" placeholder="ime">
-        <input id="prezime" placeholder="prezime">
-        <input id="index" placeholder="index">
-        <input id="smjer" placeholder="smjer">
-        <input id="ciklus" placeholder="ciklus">
-        <input id="semestar" placeholder="semestar">
-    
-        <button onclick="ubacistudenta(
-        document.getElementById('ime').value,
-        document.getElementById('prezime').value,
-        document.getElementById('index').value,
-        document.getElementById('smjer').value,
-        document.getElementById('ciklus').value,
-        document.getElementById('semestar').value);">Upiši studenta</button>
-    </div>
-    <h2>Pronađi studenta po indexu</h2>
-    <div style="width: 550px;">
-        <input id="trazeniIndex" placeholder="Pretražite po broju indeksa...">
-        <button onclick="prikazi(document.getElementById('trazeniIndex').value);">Pronađi</button>
-        <p id="ispis"></p>
-    </div>
+    <h2>FSK Adresar</h2>
+    <h4>Odaberite neku od željenih opcija:</h4>
+    <a href="upisStudenata.html"><button>Upis studenta</button></a>
+    <a href="pretragaStudenata.html"><button>Pretraga studenta</button></a>
 </body>
 </html>
