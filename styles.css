@@ -1,0 +1,90 @@
+body{
+    background-color: whitesmoke;
+    padding:0;
+    margin: 0;
+    text-align: center;
+}
+
+.toolbar{
+    background-color: black;
+    border-bottom: 3px solid #999999;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+
+}
+
+.toolbar1{
+    background-color: black;
+    border-bottom: 3px solid #999999;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.toolbar h1{
+
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.toolbar a{
+    text-decoration: none;
+}
+
+.toolbar1 h1{
+
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.toolbar1 a{
+    text-decoration: none;
+}
+
+.prviDiv{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: #ececec;    
+    position: absolute;
+    height: 25%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+#container table{
+    border: 1px solid black;
+    width: 30%;
+}
+
+hr{
+    width: 10%;
+}
+
+input{
+    padding: 15px 10px;
+    width: 15%;
+    border-radius: 3px;
+    border: 1px solid rgba(97, 97, 97, 0.486);
+    margin-bottom: 4px;
+}
+
+button{
+    padding: 15px 10px;
+    width: 16%;
+    border-radius: 3px;
+    border: 2px solid green;
+}
+
+button:hover{
+    color: white;
+    background-color: green;
+}
